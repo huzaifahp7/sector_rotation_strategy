@@ -1,0 +1,24 @@
+Factor Attribution Analysis:
+==================================================
+
+Factor Exposures:
+MKT_RF: -0.0348
+SMB: -0.0187
+HML: -0.1570
+RMW: -0.0407
+CMA: 0.1003
+RF: -0.7238
+PCA_1: 0.0001
+PCA_2: -0.0000
+PCA_3: 0.0001
+
+Factor Information Ratios:
+MKT_RF: -0.032
+SMB: -0.001
+HML: 0.004
+RMW: -0.034
+CMA: 0.005
+RF: -0.771
+PCA_1: 0.019
+PCA_2: -0.208
+PCA_3: -0.419

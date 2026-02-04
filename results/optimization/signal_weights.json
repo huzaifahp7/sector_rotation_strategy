@@ -1,0 +1,9 @@
+{
+  "weight_momentum": 0.10044251790077241,
+  "weight_mean_reversion": 0.904699058463125,
+  "weight_volatility": 0.4770078263486279,
+  "weight_quality": 0.7372900233349939,
+  "weight_macro_regime": 0.8377066805800191,
+  "weight_regime_adaptive": 0.8525733539592375,
+  "weight_defensive": 0.1479069554509375
+}

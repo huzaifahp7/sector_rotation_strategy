@@ -1,0 +1,77 @@
+PERFORMANCE METRICS
+--------------------
+Sharpe Ratio: 0.244
+Total Return: 23.36%
+Max Drawdown: -15.62%
+Annual Volatility: 5.07%
+
+FACTOR ALPHA (MULTI-FACTOR REGRESSION)
+-----------------------------------
+Daily Alpha: 0.000129 (t-stat: 2.09)
+Annualized Alpha: 3.24% (t-stat: 2.09)
+
+Regression Summary:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.178
+Model:                            OLS   Adj. R-squared:                  0.177
+Method:                 Least Squares   F-statistic:                     114.5
+Date:                Mon, 14 Jul 2025   Prob (F-statistic):          4.30e-195
+Time:                        16:07:29   Log-Likelihood:                 21085.
+No. Observations:                4764   AIC:                        -4.215e+04
+Df Residuals:                    4754   BIC:                        -4.209e+04
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0001   6.15e-05      2.091      0.037    8.02e-06       0.000
+MKT_RF        -0.0348      0.004     -9.134      0.000      -0.042      -0.027
+SMB           -0.0187      0.007     -2.607      0.009      -0.033      -0.005
+HML           -0.1570      0.006    -24.753      0.000      -0.169      -0.145
+RMW           -0.0407      0.010     -4.031      0.000      -0.060      -0.021
+CMA            0.1003      0.013      7.564      0.000       0.074       0.126
+RF            -0.7238      0.623     -1.161      0.246      -1.946       0.498
+PCA_1       5.959e-05   5.67e-05      1.052      0.293   -5.15e-05       0.000
+PCA_2      -1.885e-05   2.57e-05     -0.734      0.463   -6.92e-05    3.15e-05
+PCA_3       6.257e-05   7.77e-05      0.805      0.421   -8.98e-05       0.000
+==============================================================================
+Omnibus:                      511.953   Durbin-Watson:                   1.958
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4432.993
+Skew:                          -0.085   Prob(JB):                         0.00
+Kurtosis:                       7.723   Cond. No.                     6.34e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 6.34e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+ALPHA SIGNAL INFORMATION
+-------------------------
+Core Alpha Signals:
+  - Momentum (short vs long term)
+  - Mean Reversion
+  - Volatility
+  - Quality
+  - Macro Regime
+  - Regime Adaptive
+
+RISK MANAGEMENT
+------------------
+Target Volatility: 18.0%
+Max Position Size: 10.0%
+Drawdown Limit: 20.0%
+Transaction Costs: 5 bps
+
+CONFIGURATION
+-------------
+target_volatility: 0.18
+max_position_size: 0.1
+transaction_cost_bps: 5
+risk_free_rate: 0.02
+drawdown_limit: 0.2
+include_spy: False
+include_qqq: True
+lookback_periods: {'momentum': 252, 'volatility': 63, 'macro': 126, 'sentiment': 21}
+
+============================================================

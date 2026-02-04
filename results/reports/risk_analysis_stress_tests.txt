@@ -1,0 +1,34 @@
+Stress Test Results:
+==================================================
+
+COVID_Crash:
+  total_return: 0.049131216265093425
+  max_loss: -0.020528369633808885
+  volatility: 0.13670576191000994
+  sharpe: 1.4936756512905267
+  period: 2020-02-01 to 2020-04-30
+  days: 62
+
+COVID_Recovery:
+  total_return: -0.005161299499274352
+  max_loss: -0.027103978535122832
+  volatility: 0.06478910377121185
+  sharpe: -0.015299002482213797
+  period: 2020-05-01 to 2021-12-31
+  days: 422
+
+Inflation_Shock:
+  total_return: -0.03346549033596702
+  max_loss: -0.009661178781288294
+  volatility: 0.057090999307736735
+  sharpe: -0.5701275550632923
+  period: 2022-01-01 to 2022-12-31
+  days: 251
+
+2008_Financial_Crisis:
+  total_return: 0.033951897131973
+  max_loss: -0.024336316973022534
+  volatility: 0.1312031791740142
+  sharpe: 0.5045705542728499
+  period: 2008-09-01 to 2009-03-31
+  days: 146
