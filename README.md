@@ -167,7 +167,7 @@ results/
     └── risk_analysis.txt
 ```
 
-## Scripts in new_src Directory
+## Scripts in src
 
 | Script | Purpose | Key Functions |
 |--------|---------|---------------|
@@ -180,9 +180,3 @@ results/
 | `optimizer.py` | Hyperparameter optimization | `optimize_signal_weights()`, `optimize_factor_model()` |
 | `utils/logger.py` | Logging system | `create_logger()`, `Logger` class |
 
-## Usage Instructions
-1. Ensure all data files are in the `new_data` directory
-2. Run cells 1-8 in order
-3. Check the `results` directory for outputs
-4. Review logs in the `logs` directory for debugging
-5. Examine the comprehensive report for detailed analysis
